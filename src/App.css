@@ -1,0 +1,81 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background: linear-gradient( 90deg ,rgb(5, 5, 112), rgb(159, 5, 5)  );
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ToDoInput */
+.input{
+  border-radius: 10px 0 0 10px;
+  color: aliceblue;
+}
+
+.button{
+  border-radius: 0 10px 10px 0;
+}
+
+/* TodoList */
+.todoListContainer{
+  width: 50%;
+}
+
+.clear{
+  background-color: red;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.clearButton{
+  width: 100%;
+}
+
+.clear:hover{
+  background-color: brown;
+}
+
+/* TODO */
+
+.task{
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.taskItem{
+  margin-right: 50px;
+  color: rgb(240, 248, 255);
+}
+
+.actions{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.complete{
+ color: rgb(74, 214, 50); 
+}
+
+.completed{
+  opacity: 0.5;
+}
